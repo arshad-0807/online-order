@@ -9,4 +9,4 @@ function updateTotal(checkBox){
     total -= price;
   }
   document.getElementById("amount").innerText = total.toFixed(2);
-}
+} 
