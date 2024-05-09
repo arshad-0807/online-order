@@ -33,7 +33,7 @@
             </div>
             <div class="product-box">
               <div class="left">
-                <input type="checkbox" class="check" id="check-1"/>
+                <input type="checkbox" class="check" id="product-1" data-price="10.00" onclick="updateTotal(this)" />
                 <img src="images/product-1.jpg" alt="" />
                 <div class="product-desc">
                   <div class="title">
@@ -41,7 +41,7 @@
                     <h5>By HRX</h5>
                   </div>
                   <div class="mob-price">
-                    <h3>$20.00</h3>
+                    <h3>$10.00</h3>
                   </div>
                   <div class="qty">
                     <!-- <span>Size</span> -->
@@ -68,7 +68,7 @@
             </div>
             <div class="product-box">
               <div class="left">
-                <input type="checkbox" class="check"  id="check-2"/>
+                <input type="checkbox" class="check"  id="product-2" data-price="20.00" onclick="updateTotal(this)" />
                 <img src="images/product-2.jpg" alt="" />
                 <div class="product-desc">
                   <div class="title">
@@ -103,7 +103,7 @@
             </div>
             <div class="product-box">
               <div class="left">
-                <input type="checkbox" class="check" id="check-3"/>
+                <input type="checkbox" class="check" id="product-3" data-price="30.00" onclick="updateTotal(this)" />
                 <img src="images/product-6.jpg" alt="" />
                 <div class="product-desc">
                   <div class="title">
@@ -111,7 +111,7 @@
                     <h5>By HRX</h5>
                   </div>
                   <div class="mob-price" >
-                    <h3>$20.00</h3>
+                    <h3>$30.00</h3>
                   </div>
                   <div class="qty">
                     <!-- <span>Size</span> -->
@@ -139,7 +139,7 @@
           </div>
           <div id="total">
             <h5>Total</h5>
-            <div id="amount"></div>
+            <div id="amount">0.00</div>
           </div>
         </div>
       </div>
