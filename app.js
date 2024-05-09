@@ -12,7 +12,7 @@ price_3.value = 30.00
 
 var showPrice_1 = function(){
     check_1.addEventListener("click",function(){
-      // amount.innerHTML ="$" + price_1.value;
+      amount.innerHTML ="$" + price_1.value;
     })  
 }
 var showPrice_2 = function(){
