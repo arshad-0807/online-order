@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Online</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="header">
+          <div class="nav">
+            <div class="logo">
+              <img
+                src="images/flipkart-inventory-management-system-zap-inventory-1.png"
+                alt="logo"/>
+              <span>flipkart</span>
+            </div>
+            <div class="cart">
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-container">
+            <div class="content-heading">
+              <h3>Product List</h3>
+            </div>
+            <div class="product-box">
+              <div class="left">
+                <input type="checkbox" class="check" id="check-1"/>
+                <img src="images/product-1.jpg" alt="" />
+                <div class="product-desc">
+                  <div class="title">
+                    <h3>Red Cotton T-Shirt</h3>
+                    <h5>By HRX</h5>
+                  </div>
+                  <div class="mob-price">
+                    <h3>$20.00</h3>
+                  </div>
+                  <div class="qty">
+                    <!-- <span>Size</span> -->
+                    <span>
+                      <select>
+                        <option>Select Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>L</option>
+                        <option>M</option>
+                        <option>S</option>
+                      </select>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="right">
+                <b>
+                  <span>$
+                    <span id="price-1">10.00</span>
+                  </span>
+                </b>
+              </div>
+            </div>
+            <div class="product-box">
+              <div class="left">
+                <input type="checkbox" class="check"  id="check-2"/>
+                <img src="images/product-2.jpg" alt="" />
+                <div class="product-desc">
+                  <div class="title">
+                    <h3>Black Shoes</h3>
+                    <h5>By Red Tape</h5>
+                  </div>
+                  <div class="mob-price">
+                    <h3>$20.00</h3>
+                  </div>
+                  <div class="qty">
+                    <!-- <span>Size</span> -->
+                    <span>
+                      <select>
+                        <option>Select Size</option>
+                        <option>10</option>
+                        <option>9</option>
+                        <option>8</option>
+                        <option>7</option>
+                        <option>6</option>
+                      </select>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="right">
+                <b>
+                  <span>$
+                    <span id="price-2">20.00</span>
+                  </span>
+                </b>
+              </div>
+            </div>
+            <div class="product-box">
+              <div class="left">
+                <input type="checkbox" class="check" id="check-3"/>
+                <img src="images/product-6.jpg" alt="" />
+                <div class="product-desc">
+                  <div class="title">
+                    <h3>Black Cotton T-Shirt</h3>
+                    <h5>By HRX</h5>
+                  </div>
+                  <div class="mob-price" >
+                    <h3>$20.00</h3>
+                  </div>
+                  <div class="qty">
+                    <!-- <span>Size</span> -->
+                    <span>
+                      <select>
+                        <option>Select Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>L</option>
+                        <option>M</option>
+                        <option>S</option>
+                      </select>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="right">
+                <b>
+                  <span>$
+                    <span id="price-3">30.00</span>
+                  </span>
+                </b>
+              </div>
+            </div>
+          </div>
+          <div id="total">
+            <h5>Total</h5>
+            <div id="amount"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
