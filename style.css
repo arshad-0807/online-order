@@ -135,4 +135,8 @@ html,body {
     display: flex;
     align-items: center;
     justify-content: center;
-} 
+}
+
+.juned {
+    width: 100px;
+}
